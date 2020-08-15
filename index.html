@@ -36,10 +36,10 @@
 
   <main class="container-fluid">
     <!--Form/Text over IMG  -->
-    <section class="row bkrimg img-fluid">
+    <section class="row bkrimg col-12">
 
-      <div class="col-12 col-md-5 col-sm-2">
-        <h6>subtle heading</h6>
+      <div class="col-12 col-md-5 col-sm-12">
+        <h6 class="text-light">subtle heading</h6>
         <form class="card p-2 spctitle">
           <div>
 
@@ -62,7 +62,7 @@
           </div>
         </form>
       </div>
-      <div class="col-6 d-none d-md-flex align-self-center">
+      <div class="col-6 d-none d-md-flex align-self-center text-light">
         <h3 class="spctitle">
           Company Promise
         </h3>
@@ -72,13 +72,8 @@ We are a small company that takes pride in our work because it could literally s
       </div>
     </section>
     <!--Card Spill  -->
-    <section class="row bg-dark text-light">
-      <div class="col-6">
-        <h3 class="spctitle">Company Improvement</h3>
-        <h5 class="spctitle">We strive to consistently improve our company</h5>
-        <p>Our gun smiths are second to none! This has led us to undergo SCRUM training in an attempt to decrease our turn around time. It is our hope that through this increase in productivity that we will be able to provide our customers faster service. All the while maintaining the most competitive pricing. </p>
-      </div>
-      <div class="col-6 text-dark">
+    <section class="row bg-dark text-light card-feature">
+      <div class="col-md-6 text-dark d-flex justify-content-center order-md-2 strengths-card">
         <div class="card" style="width: 18rem;">
           <ul class="list-group list-group-flush">
             <li class="list-group-item"> 
@@ -112,6 +107,11 @@ We are a small company that takes pride in our work because it could literally s
             </li>
           </ul>
         </div>
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h3 class="spctitle">Company Improvement</h3>
+        <h5 class="spctitle">We strive to consistently improve our company</h5>
+        <p>Our gun smiths are second to none! This has led us to undergo SCRUM training in an attempt to decrease our turn around time. It is our hope that through this increase in productivity that we will be able to provide our customers faster service. All the while maintaining the most competitive pricing. </p>
       </div>
     </section>
     <!--IMG 2 Headers 1 P-->

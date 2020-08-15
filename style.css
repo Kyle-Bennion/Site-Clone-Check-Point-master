@@ -29,3 +29,21 @@ footer{
 .spctitle{
   font-family: 'Fenix', serif;
 }
+
+
+@media(min-width: 768px){
+  .strengths-card{
+    position: absolute;
+    bottom: 0;
+    transform:translateY(8%) ;
+  }
+}
+
+
+@media(min-width:768px){
+.card-feature{
+  position: relative;
+  }
+}
+
+
