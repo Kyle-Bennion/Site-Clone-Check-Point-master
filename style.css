@@ -15,7 +15,15 @@ footer{
 
 .bkrimg{
   background-image: url(/Scar16.jpg);
-  background-color: ;
-  background-position: center;
-  background-size: cover;
+  background-color:white ;
+  background-position: center ;
+  background-size:cover ;
+}
+
+.spcfont{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.spctitle{
+  font-family: 'Fenix', serif;
 }
