@@ -1,0 +1,21 @@
+body { 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column;
+}
+
+header{
+
+}
+main{flex-grow: 1;} 
+
+footer{ 
+
+}
+
+.bkrimg{
+  background-image: url(/Scar16.jpg);
+  background-color: ;
+  background-position: center;
+  background-size: cover;
+}
