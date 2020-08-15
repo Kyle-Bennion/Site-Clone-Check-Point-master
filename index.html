@@ -11,38 +11,34 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <Style>
-    * {
-      outline: 1px solid red;
-    }
 
-    .row {
-      height: 450px;
-    }
   </Style>
 
 </head>
 
 <body>
 
+  <div class="sticky-top bg-dark col-12">
   <header class="container-fluid bg-dark spctitle">
     <section class="row">
       <div class="col-12">
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            <img src="/companyemblem.png" width="30" height="30"
-              class="d-inline-block align-top" alt="" loading="lazy">
+        <nav class="navbar navbar-light bg-dark">
+          <a class="navbar-brand text-light" href="#">
+            <img src="/companyemblem.png" width="40" height="40"
+            class="d-inline-block align-top text-light" alt="" loading="lazy">
             Strapped Up Operator 
           </a>
         </nav>
       </div>
     </section>
   </header>
+  </div>
 
   <main class="container-fluid">
     <!--Form/Text over IMG  -->
     <section class="row bkrimg img-fluid">
 
-      <div class="col-6">
+      <div class="col-12 col-md-5 col-sm-2">
         <h6>subtle heading</h6>
         <form class="card p-2 spctitle">
           <div>
@@ -53,7 +49,7 @@
               News Letter
             </div>
             <label for="exampleFormControlInput1">Full Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jonathan Dough">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jon Doe">
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
@@ -66,7 +62,7 @@
           </div>
         </form>
       </div>
-      <div class="col-6">
+      <div class="col-6 d-none d-md-flex align-self-center">
         <h3 class="spctitle">
           Company Promise
         </h3>
@@ -78,11 +74,9 @@ We are a small company that takes pride in our work because it could literally s
     <!--Card Spill  -->
     <section class="row bg-dark text-light">
       <div class="col-6">
-        <h4 class="spctitle">This is some more really important gun stuff</h4>
-        <h5 class="spctitle">Less important cause its smaller but still need it</h5>
-        <p>The sound of artilery BOOM BOOM--->The sound of artilery BOOM BOOM--->The sound of artilery BOOM BOOM--->The
-          sound of artilery BOOM BOOM--->The sound of artilery BOOM BOOM--->The sound of artilery BOOM BOOM--->The sound
-          of artilery BOOM BOOM---></p>
+        <h3 class="spctitle">Company Improvement</h3>
+        <h5 class="spctitle">We strive to consistently improve our company</h5>
+        <p>Our gun smiths are second to none! This has led us to undergo SCRUM training in an attempt to decrease our turn around time. It is our hope that through this increase in productivity that we will be able to provide our customers faster service. All the while maintaining the most competitive pricing. </p>
       </div>
       <div class="col-6 text-dark">
         <div class="card" style="width: 18rem;">
@@ -130,7 +124,7 @@ We are a small company that takes pride in our work because it could literally s
           <b>New Rifle Being Fielded In Afghanistan</b></h2>
         <h5 class="spctitle">Initial thoughts from operators in the fight:</h5>
         <p>
-This new rifle is revolutionizing the way we think about combat. The new capabilities to reach out and touch enemies that would have been untouchable previously is altering the trajectory of engaugements. The accuracy is second to none. I have shot thousands of rounds through it with unbelievable consistency. This new rifle is turning the tide in this occupation.
+This new rifle is revolutionizing the way we think about combat. The new capabilitie to reach out and touch enemies that would have been untouchable previously is altering the trajectory of engaugements. The accuracy is second to none. I have shot thousands of rounds through it with unbelievable consistency. This new rifle is turning the tide in this occupation.
         </p>
         <button class="btn btn-dark">More</button>
       </div>
@@ -138,49 +132,42 @@ This new rifle is revolutionizing the way we think about combat. The new capabil
     <!--3 Cards-->
     <!--WORK HERE-->
     <section class="row bg-dark spcfont">
-      <div class="col-4">
 
-        <div class="card">
-
+      <div class="col-12 col-md-3">
+        <div class="card ">
           <div class="card-body">
             <blockquote class="blockquote mb-0">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+              <p>If customers send us pistols that have been altered by a third party company and recieved less than satisfactory work we send them to Stand Up Operator to have them smithed properly</p>
+              <footer class="blockquote-footer text-center">Colt<cite title="Source Title">
               </footer>
             </blockquote>
           </div>
         </div>
-
-      </div>
-      </div>
-      <div class="col-4">
-
+        </div>
+      <div class="col-12 col-md-3 ">
         <div class="card">
-          <div class="card-header text-center">
+          <div class="card-header text-center ">
             <i class="fa fa-star text-danger" aria-hidden="true"></i>
             <i class="fa fa-star text-danger" aria-hidden="true"></i>
             <i class="fa fa-star text-danger" aria-hidden="true"></i>
           </div>
           <div class="card-body">
             <blockquote class="blockquote mb-0">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <p>Strapped Up Operator provides amazing work at some the lowest prices in the industry </p>
               <footer class="blockquote-footer text-center">Gunbroker.com <cite title="Source Title"></cite>
               </footer>
             </blockquote>
           </div>
         </div>
-
       </div>
-      <div class="col-4">
-
-        <div class="card">
+      <div class="col-12 col-md-3">
+        <div class="card ">
           <div class="card-header">
-
           </div>
           <div class="card-body">
             <blockquote class="blockquote mb-0">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+              <p>Great Staff! Amazing Work! Untouchable Price! I cannot recommend this company enough. They stand by their promises.</p>
+              <footer class="blockquote-footer">Guns.com
               </footer>
             </blockquote>
           </div>
@@ -192,10 +179,10 @@ This new rifle is revolutionizing the way we think about combat. The new capabil
     <!--Blanket Info Page-->
     <section class="row bg-warning">
       <div class="col-12">
-        <h4>
-          IMPORTANT TEXT
+        <h4 class="spctitle">
+          Company Disclaimer
         </h4>
-        <h6>Honestly this is the most important part.</h6>
+        <p>It is the responsibility of the buyer, not the seller, to ascertain and obey all applicable local, state, federal, and international laws in the regard to the possession, use and sale of any item purchased from Information Unlimited, Inc. Absolutely no sales to minors. By placing an order, the buyer represents that the products ordered will be used only in a lawful manner and that he/she is of legal age. Information Unlimited, Inc. will not be held liable for the misuse of any product purchased from us or any of our direct distributors or dealers. Also, whereas no product is 100% effective against attack, Information Unlimited Inc. assumes no responsibility if a personal safety product purchased from us is not effective in preventing bodily injury or death.</p>
       </div>
 
   </main>
@@ -203,17 +190,20 @@ This new rifle is revolutionizing the way we think about combat. The new capabil
 
   <footer class="container-fluid bg-info">
     <section class="row col-12 text-center">
-      <h6>Made With Love by Revo</h6><i class="fa fa-facebook-square" aria-hidden="true"> </i> </i></i><i class="fa fa-twitter-square"
+      <h6>Kyle Bennion-Owner</h6><i class="fa fa-facebook-square" aria-hidden="true"> </i> </i></i><i class="fa fa-twitter-square"
         aria-hidden="true"> </i><i class="fa fa-youtube-play" aria-hidden="true"> </i>
-
-
-
-
     </section>
   </footer>
 
 
-
+  <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'
+    integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN'
+    crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'
+    integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q'
+    crossorigin='anonymous'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+    integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl'
+    crossorigin='anonymous'></script>
 </body>
-
-</html>
+ 
